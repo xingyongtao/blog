@@ -63,7 +63,9 @@ poststatic: static/nginx-post-upstream
 	make
 	sudo make install
 
-nginx配置
+配置两个server一个是80端口，可以按参数转发GET请求（POST不能正确处理），另一个监听8080，可以按参数转发POST请求（不接受GET）
+
+附nginx配置[nginx.conf]({{site.baseurl}}/{{page.poststatic}}//nginx.conf)
 
 	...
 	    upstream helloworld1 {
@@ -115,7 +117,7 @@ nginx配置
 	        }
 	...
 
-配置两个server一个是80端口，可以按参数转发GET请求（POST不能正确处理），另一个监听8080，可以按参数转发POST请求（不接受GET）
+验证结果
 
 	$ curl  http://localhost?appid=a
 	PORT 8888 GET: Hello, world
