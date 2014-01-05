@@ -2,7 +2,7 @@
 layout: default
 title: \[机器学习\]线性回归costFunction计算和梯度下降算法更新公式
 ---
-\[机器学习\]线性回归costFunction计算和梯度下降算法更新公式
+{{page.title}}
 ===============
 这是斯坦福的机器学习课程学习笔记。
 
