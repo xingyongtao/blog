@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [机器学习]线性回归costFunction计算和梯度下降算法更新公式
+title: \[机器学习\]线性回归costFunction计算和梯度下降算法更新公式
 ---
 \[机器学习\]线性回归costFunction计算和梯度下降算法更新公式
 ===============
