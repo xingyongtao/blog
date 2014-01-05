@@ -10,11 +10,11 @@ title: \[机器学习\]线性回归costFunction计算和梯度下降算法更新
 
 线性回归的\\(J(\theta)\\)计算比较简单：
 
-<span>
-$$J(\theta)= {1 \over 2m}$$
-</span>
 
-$$ \sum\_{i=1}^m(h_\theta(x^{(i)})-y^{(i)})^2$$
+$$J(\theta)= \frac{1}{2m}$$
+
+
+$$\sum\_{i=1}^m{(h_\theta(x^{(i)})-y^{(i)})^2}$$
 
 
 Test:
