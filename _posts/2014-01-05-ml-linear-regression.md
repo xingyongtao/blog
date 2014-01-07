@@ -55,12 +55,12 @@ h\_\theta(x^{(m)})-y^{(m)}
 \end{bmatrix}
 \cdot
 \begin{bmatrix}
-x^{(1)} \\\\
-x^{(2)} \\\\
+x\_j^{(1)} \\\\
+x\_j^{(2)} \\\\
 \vdots \\\\
-x^{(i)} \\\\
+x\_j^{(i)} \\\\
 \vdots \\\\
-x^{(m)}
+x\_j^{(m)}
 \end{bmatrix} \\\\
 =\begin{bmatrix}
 h\_\theta(x^{(1)})-y^{(1)} \\\\
@@ -72,23 +72,67 @@ h\_\theta(x^{(m)})-y^{(m)}
 \end{bmatrix}^T
 \cdot
 \begin{bmatrix}
-x^{(1)} \\\\
-x^{(2)} \\\\
+x\_j^{(1)} \\\\
+x\_j^{(2)} \\\\
 \vdots \\\\
-x^{(i)} \\\\
+x\_j^{(i)} \\\\
 \vdots \\\\
-x^{(m)}
+x\_j^{(m)}
 \end{bmatrix}
 =\delta^T \cdot 
 \begin{bmatrix}
-x^{(1)} \\\\
-x^{(2)} \\\\
+x\_j^{(1)} \\\\
+x\_j^{(2)} \\\\
 \vdots \\\\
-x^{(i)} \\\\
+x\_j^{(i)} \\\\
 \vdots \\\\
-x^{(m)}
+x\_j^{(m)}
 \end{bmatrix}
 $$
 
-是\\(\delta^T\\)乘以\\(X\\)的第j列。
+是\\(\delta^T\\)乘以\\(X\\)的第j列，而且是个实数，转置后仍是他本身。
 
+$$\sum\_{i=1}^{m}{(h\_\theta(x^{(i)})-y^{(i)})x\_j^{(i)}}
+=\left(\delta^T \cdot 
+\begin{bmatrix}
+x\_j^{(1)} \\\\
+x\_j^{(2)} \\\\
+\vdots \\\\
+x\_j^{(i)} \\\\
+\vdots \\\\
+x\_j^{(m)}
+\end{bmatrix}
+\right)^T
+=\begin{bmatrix}
+x\_j^{(1)} \\\\
+x\_j^{(2)} \\\\
+\vdots \\\\
+x\_j^{(i)} \\\\
+\vdots \\\\
+x\_j^{(m)}
+\end{bmatrix}^T \cdot \delta 
+$$
+
+$$
+\theta\_j:=\theta\_j-\alpha\frac{1}{m}\sum\_{i=1}^m{(h\_\theta(x^{(i)})-y^{(i)})x\_j^{(i)}}\\\\
+:=\theta\_j-\frac{\alpha}{m}\begin{bmatrix}
+x\_j^{(1)} \\\\
+x\_j^{(2)} \\\\
+\vdots \\\\
+x\_j^{(i)} \\\\
+\vdots \\\\
+x\_j^{(m)}
+\end{bmatrix}^T \cdot \delta 
+$$
+
+组合成矩阵应该是
+
+$$
+\theta:=\theta-\frac{\alpha}{m}X^T \cdot \delta
+$$
+
+写成MATLAB程序，大概是这个样子的：
+
+	%h = X * theta;
+	%delta = h - y;
+	theta = theta - alpha / m * (X'* delta);
