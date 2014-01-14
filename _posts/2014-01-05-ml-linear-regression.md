@@ -34,9 +34,11 @@ $$J(\theta)=\frac{1}{2m}\delta^T\delta$$
 
 写成MATLAB程序，大概是这个样子的：
 
-	h = X * theta;
-	delta = h - y;
-	J = 1 / (2*m) * delta' * delta;
+{% highlight matlab %}
+h = X * theta;
+delta = h - y;
+J = 1 / (2*m) * delta' * delta;
+{% endhighlight %}
 
 梯度下降的更新公式是：
 
@@ -133,6 +135,12 @@ $$
 
 写成MATLAB程序，大概是这个样子的：
 
-	%h = X * theta;
-	%delta = h - y;
-	theta = theta - alpha / m * (X'* delta);
+{% highlight matlab %}
+%h = X * theta;
+%delta = h - y;
+theta = theta - alpha / m * (X'* delta);
+{% endhighlight %}
+    
+
+
+感谢[MathJax](http://www.mathjax.org)，让我写出了这么漂亮的公式。
