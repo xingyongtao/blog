@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: with-mathmax
 title: 线性回归costFunction计算和梯度下降算法更新公式
 category: 机器学习
 ---
