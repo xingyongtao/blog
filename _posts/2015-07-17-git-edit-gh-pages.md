@@ -22,5 +22,5 @@ title: GitHub Pages 提交文章的简单步骤
 	// 提交
 	git add ...
 	git commit [-m message]
-	git push origin gh-pages
+	git push [origin gh-pages]
 
