@@ -10,32 +10,30 @@ title: “万宝”股权之争是学习的好机会
 
 不管是宝能进击，还是万科反击，重要基础都是现行法律法规和公司章程。
 
-万科公司章程地址：
-http://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2014/2014-6/2014-06-25/1438004.PDF
+**[万科公司章程](http://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2014/2014-6/2014-06-25/1438004.PDF)**
+
 
 万科是A股和H股上市企业，以下是百度百科上关于A股和H股的词条。
 
-A股：
-http://baike.baidu.com/view/33.htm
+**[A股](http://baike.baidu.com/view/33.htm)**
 
-H股：
-http://baike.baidu.com/view/11212.htm
+**[H股](http://baike.baidu.com/view/11212.htm)**
 
 新闻中还多次提到一个词，叫一致行动人，就是说宝能和前海人寿，是一致行动人。
 
-一致行动人词条：
-http://baike.baidu.com/view/1707386.htm
+**[一致行动人词条](http://baike.baidu.com/view/1707386.htm)**
 
 王石反击的一种可能是定向增发（虽然各渠道都认为不可能或者没有胜算，但这个术语还是要看的）。
 
-定向增发
-http://baike.baidu.com/view/371939.htm
+**[定向增发](http://baike.baidu.com/view/371939.htm)**
 
-控股股东
+**控股股东**
+
 万科章程里规定了控股股东的定义和权利，比如其中有一条是：
-该人单独或者与他人一致行动时,持有公司发行在外百分之三十以上(含百分之 三十)的股份;
+> 该人单独或者与他人一致行动时,持有公司发行在外百分之三十以上(含百分之 三十)的股份;
 
-董事会
+**董事会**
+
 同上。
 
 嗯，好好学习，天天向上。
