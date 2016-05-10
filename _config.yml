@@ -1,4 +1,4 @@
 name: 邢永涛的博客
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 baseurl: /blog
