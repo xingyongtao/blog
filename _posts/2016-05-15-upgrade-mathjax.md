@@ -5,7 +5,7 @@ poststatic: static/upgrade-mathjax
 ---
 {{page.title}}
 ============
-[本博客]({{site.baseurl}}) 最近上传文章，老是提醒 Markdown 渲染引擎不再支持，让升级，升级后又让升级高亮，最后终于折腾成这样的配置：
+[本博客]({{site.baseurl}}/) 最近上传文章，老是提醒 Markdown 渲染引擎不再支持，让升级，升级后又让升级高亮，最后终于折腾成这样的配置：
 
 	markdown: kramdown
 	highlighter: rouge
