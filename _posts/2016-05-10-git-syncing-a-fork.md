@@ -18,38 +18,28 @@ https://help.github.com/articles/syncing-a-fork/
 
 # clone 
 
-```
-$ git clone git@github.com:xingyongtao/docker.git
-```
+	$ git clone git@github.com:xingyongtao/docker.git
 
 # 设置remote
 
-```
-$ git remote -v
-origin	git@github.com:xingyongtao/docker.git (fetch)
-origin	git@github.com:xingyongtao/docker.git (push)
-$ git remote add upstream git@github.com:docker/docker.git
-$ git remote -v
-origin	git@github.com:xingyongtao/docker.git (fetch)
-origin	git@github.com:xingyongtao/docker.git (push)
-upstream	git@github.com:docker/docker.git (fetch)
-upstream	git@github.com:docker/docker.git (push)
-```
+	$ git remote -v
+	origin	git@github.com:xingyongtao/docker.git (fetch)
+	origin	git@github.com:xingyongtao/docker.git (push)
+	$ git remote add upstream git@github.com:docker/docker.git
+	$ git remote -v
+	origin	git@github.com:xingyongtao/docker.git (fetch)
+	origin	git@github.com:xingyongtao/docker.git (push)
+	upstream	git@github.com:docker/docker.git (fetch)
+	upstream	git@github.com:docker/docker.git (push)
 
 # 拉取原作者更新到本地
 
-```
-$ git fetch upstream
-```
+	$ git fetch upstream
 
 # merge
 
-```
-$ git merge upstream/master
-```
+	$ git merge upstream/master
 
 # push
 
-```
-git push
-```
+	git push
