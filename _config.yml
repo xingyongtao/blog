@@ -2,3 +2,9 @@ name: 邢永涛的博客
 markdown: kramdown
 highlighter: rouge
 baseurl: /blog
+
+title: Blog
+description: 
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
